@@ -1,4 +1,4 @@
-# The Nokia 3310 Snak game
+# The Nokia 3310 Snake game
 
 ###This is a Vanilla JavaScript Snake Game
 
