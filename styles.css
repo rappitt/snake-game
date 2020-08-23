@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body {
+    margin: 0;
+    font-family: "VT323", monospace;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.wrapper {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.main-display {
+    background: rgb(133, 180, 144);
+    width: 280px;
+    margin: 20px auto;
+}
+
+.scoreboard {
+    border-bottom: 5px solid black;
+    margin: 5px auto;
+    width: 250px;
+}
+
+.scoreboard h2 {
+    margin: 0;
+}
+
+.grid {
+    border: 5px solid black;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.snake,
+.apple {
+    width: 10px;
+    height: 10px;
+    background: rgb(30, 37, 29);
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 130px;
+}
+
+.btn {
+    background: rgb(133, 180, 144);
+    padding: 10px 20px;
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    border: double black 10px;
+    width: 150px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#start {
+    cursor: pointer;
+}
+
+#gameOver {
+    display: none;
+}
+
+.square {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
